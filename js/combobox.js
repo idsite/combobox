@@ -202,7 +202,7 @@
                     inp.val(value);
                     if (onEvent)
                     {
-                        $this.trigger('change.' + namePlugin, [value]);
+                        $this.trigger('changeVal.' + namePlugin, [value]);
                     }
                 }
 
