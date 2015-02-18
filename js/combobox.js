@@ -151,6 +151,8 @@
                         return false;
                     });
 
+
+
                     $this.data(namePlugin, {
                         target: $this,
                         options: options
@@ -160,15 +162,16 @@
                     methods._renderData.apply($this, [options.data]);
                     methods.setVal.apply($this, [options.value, false]);
 
+
                 }
             });
         },
         setData: function (data) {
             return this.each(function () {
                 var $this = $(this);
-                var data = $this.data(namePlugin);
-                data.options.data = data;
-                methods._renderData.apply($this, [data.options.data]);
+                var _data = $this.data(namePlugin);
+                _data.options.data = data;
+                methods._renderData.apply($this, [_data.options.data]);
             });
         },
         addData: function (item) {
