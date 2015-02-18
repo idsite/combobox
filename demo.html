@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Combobox jquery plugin</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/css.css" />
+        <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="js/combobox.js"></script>
+    </head>
+    <body>
+        <h1>Combobox jquery plugin</h1>
+        <h2>Пример 1</h2>
+
+        <select name="p" id="e1">
+            <option value="analiz_hozyaystvennoy_deyatelnosti">Анализ хозяйственной деятельности</option>
+            <option value="antikrizisnoe_upravlenie">Антикризисное управление</option>
+            <option value="buhgalterskiy_uchet_i_audit">Бухгалтерский учет и аудит</option>
+            <option value="bankovskoe_delo">Банковское дело</option>
+            <option value="innovatsionnyiy_menedjment">Инновационный менеджмент</option>
+            <option value="bezopasnost_jiznedeyatelnosti">Безопасность жизнедеятельности</option>
+            <option value="finansovyiy_menedjment">Финансовый менеджмент</option>
+            <option value="standartizatsiya">Стандартизация</option>
+            <option value="dengi">Деньги</option>
+            <option value="informatsionnyie_tehnologii">Информационные технологии</option>
+            <option value="investitsii">Инвестиции</option>
+            <option value="menedjment">Менеджмент</option>
+            <option value="informatika">Информатика</option>
+            <option value="teoriya_upravleniya">Теория управления</option>
+            <option value="tovarovedenie">Товароведение</option>
+            <option value="istoriya">История</option>
+            <option value="ekonomicheskiy_analiz">Экономический анализ</option>
+            <option value="kulturologiya">Культурология</option>
+            <option value="logistika">Логистика</option>
+            <option value="marketing">Маркетинг</option>
+            <option value="proizvodstvennyiy_marketing_i_menedjment">Производственный маркетинг и менеджмент</option>
+            <option value="strategicheskiy_menedjment">Стратегический менеджмент</option>
+            <option value="tsenoobrazovanie_i_otsenka_biznesa">Ценообразование и оценка бизнеса</option>
+            <option value="ekonomika">Экономика</option>
+            <option value="nalogi">Налоги</option>
+            <option value="organizatsionnoe_razvitie">Организационное развитие</option>
+            <option value="torgovoe_delo">Торговое дело</option>
+            <option value="politologiya">Политология</option>
+            <option value="biznes_planirovanie">Бизнес планирование</option>
+            <option value="psihologiya">Психология</option>
+            <option value="ekonomika_truda">Экономика труда</option>
+            <option value="sotsiologiya">Социология</option>
+            <option value="statistika">Статистика</option>
+            <option value="strahovanie">Страхование</option>
+            <option value="ekonomicheskaya_teoriya">Экономическая теория</option>
+            <option value="teoriya_veroyatnosti">Теория вероятности</option>
+            <option value="teoriya_mashin_i_mehanizmov">Теория машин и механизмов</option>
+            <option value="aviatsionnaya_i_raketno_kosmicheskaya_tehnika">Авиационная и ракетно-космическая техника</option>
+            <option value="upravlenie_personalom">Управление персоналом</option>
+            <option value="filosofiya">Философия</option>
+            <option value="vyisshaya_matematika">Высшая математика</option>
+            <option value="pravo_i_yurisprudentsiya">Право и юриспруденция</option>
+            <option value="finansyi">Финансы</option>
+            <option value="kredit">Кредит</option>
+            <option value="ekonometrika">Эконометрика</option>
+            <option value="ekonomika_predpriyatiya">Экономика предприятия</option>
+            <option value="geografiya">География</option>
+            <option value="drugoe">Другое</option>
+            <option value="arhitektura_i_stroitelstvo">Архитектура и строительство</option>
+            <option value="astronomiya">Астрономия</option>
+            <option value="biologiya">Биология</option>
+            <option value="vneshneekonomicheskaya_deyatelnost">Внешнеэкономическая деятельность</option>
+            <option value="geodeziya">Геодезия</option>
+            <option value="gosudarstvennoe_i_munitsipalnoe_upravlenie">Государственное и муниципальное управление</option>
+            <option value="yazyiki_perevodyi">Языки (переводы)</option>
+            <option value="iskusstvo">Искусство</option>
+            <option value="programmirovanie">Программирование</option>
+            <option value="geometriya">Геометрия</option>
+            <option value="meditsina">Медицина</option>
+            <option value="ekologiya">Экология</option>
+            <option value="pedagogika">Педагогика</option>
+            <option value="tehnologiya_prodovolstvennyih_produktov_i_tovarov">Технология продовольственных продуктов и товаров</option>
+            <option value="elektronika_elektrotehnika_radiotehnika">Электроника, электротехника, радиотехника</option>
+            <option value="fizika">Физика</option>
+            <option value="fizicheskaya_kultura">Физическая культура</option>
+            <option value="himiya">Химия</option>
+            <option value="turizm">Туризм</option>
+            <option value="soprotivlenie_materialov">Сопротивление материалов</option>
+            <option value="mashinostroenie">Машиностроение</option>
+            <option value="avtomatizatsiya_tehnologicheskih_protsessov">Автоматизация технологических процессов</option>
+            <option value="teoreticheskaya_mehanika">Теоретическая механика</option>
+            <option value="gostinichnoe_delo">Гостиничное дело</option>
+            <option value="mikro__makroekonomika">Микро-, макроэкономика</option>
+            <option value="tamojennoe_delo">Таможенное дело</option>
+            <option value="bibliotechno_informatsionnaya_deyatelnost">Библиотечно-информационная деятельность</option>
+            <option value="veterinariya">Ветеринария</option>
+            <option value="dokumentovedenie_i_arhivovedenie">Документоведение и архивоведение</option>
+            <option value="konfliktologiya">Конфликтология</option>
+            <option value="menedjment_organizatsii">Менеджмент организации</option>
+            <option value="dizayn">Дизайн</option>
+            <option value="jurnalistika">Журналистика</option>
+            <option value="literatura">Литература</option>
+            <option value="mejdunarodnyie_otnosheniya">Международные отношения</option>
+            <option value="muzyika">Музыка</option>
+            <option value="reklama_i_PR">Реклама и PR</option>
+            <option value="svyazi_s_obschestvennostyu">Связи с общественностью</option>
+            <option value="sotsialnaya_rabota">Социальная работа</option>
+            <option value="stranovedenie">Страноведение</option>
+            <option value="hirurgiya">Хирургия</option>
+            <option value="etika">Этика</option>
+            <option value="yazyikoznanie_i_filologiya">Языкознание и филология</option>
+            <option value="avtomatika_i_upravlenie">Автоматика и управление</option>
+            <option value="bazyi_dannyih">Базы данных</option>
+            <option value="gidravlika">Гидравлика</option>
+            <option value="logika">Логика</option>
+            <option value="materialovedenie">Материаловедение</option>
+            <option value="metallurgiya">Металлургия</option>
+            <option value="nachertatelnaya_geometriya">Начертательная геометрия</option>
+            <option value="priborostroenie_i_optotehnika">Приборостроение и оптотехника</option>
+            <option value="protsessyi_i_apparatyi">Процессы и аппараты</option>
+            <option value="televidenie">Телевидение</option>
+            <option value="mehanika">Механика</option>
+            <option value="teploenergetika_i_teplotehnika">Теплоэнергетика и теплотехника</option>
+            <option value="tehnologicheskie_mashinyi_i_oborudovanie">Технологические машины и оборудование</option>
+            <option value="transportnyie_sredstva">Транспортные средства</option>
+            <option value="cherteji">Чертежи</option>
+            <option value="cherchenie">Черчение</option>
+            <option value="energeticheskoe_mashinostroenie">Энергетическое машиностроение</option>
+            <option value="radiofizika">Радиофизика</option>
+            <option value="geologiya">Геология</option>
+            <option value="estestvoznanie">Естествознание</option>
+            <option value="neftegazovoe_delo">Нефтегазовое дело</option>
+            <option value="informatsionnaya_bezopasnost">Информационная безопасность</option>
+        </select>
+
+        <h2>Пример 2</h2>
+        <div id="e2"></div>
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#e1').combobox();
+
+                $('#e2').combobox({
+                    name: 'name2',
+                    value: null,
+                    data: [{value: 1, text: 'test item1'}, {value: 2, text: 'test item2'}],
+                    onUnknownValue: function (text) {
+                        var newItemValue = String(Math.random()).split('.')[1];
+                        $(this).combobox('addData', {text: text, value: newItemValue}) //добавление пункиа которого не существует
+                                .combobox('setVal', newItemValue); //установить значение новое
+
+                    }
+                });
+
+            });
+        </script>
+
+
+
+    </body>
+</html>

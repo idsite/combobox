@@ -1,0 +1,55 @@
+.idsite-combobox
+{
+    position: relative;
+    width: 200px;
+    background: white;
+}
+.idsite-combobox ul
+{
+    background: white;
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    border-bottom: 1px solid #cccccc;
+}
+.idsite-combobox ul>li
+{
+    display: block;
+    border-bottom: 1px solid #cccccc;
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding:5px;
+    cursor: pointer;
+}
+.idsite-combobox.idsite-combobox-ul-hide ul
+{
+    display: none;
+}
+
+
+.idsite-combobox .idsite-combobox-input-c
+{
+    height: 25px;
+    border: 1px solid #cccccc;;
+    overflow: hidden;
+    background: url(icon-arrow-down-b-16.png) 100% 50% no-repeat;
+}
+.idsite-combobox .idsite-combobox-input-c input
+{
+    height: 25px;
+    display: block;
+    width: 180px;
+    background: transparent;
+    border: none;
+}
+
+.idsite-combobox ul>li.idsite-combobox-li-select
+{
+    background: #dfffdf;
+}
