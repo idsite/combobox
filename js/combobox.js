@@ -55,9 +55,6 @@
                         $this.addClass('idsite-combobox');
                     }
 
-
-                    console.log($this);
-
                     $this.html('<div class="idsite-combobox-input-c"><input class="idsite-combobox-text"  type="text" value="" ' + options.inputAttr + ' ></div><ul></ul><input class="idsite-combobox-val" type="hidden" name="' + options.name + '" value="">');
                     $this.addClass('idsite-combobox-ul-hide');
                     var inputText = $this.find('.idsite-combobox-text');
