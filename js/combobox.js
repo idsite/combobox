@@ -223,8 +223,11 @@
             return false;
         },
         _showUl: function () {
-            this.addClass('idsite-combobox-ul-show').removeClass('idsite-combobox-ul-hide');
-            this.find('ul').scrollTop(0);
+            if (this.data(namePlugin).options.data.length)
+            {
+                this.addClass('idsite-combobox-ul-show').removeClass('idsite-combobox-ul-hide');
+                this.find('ul').scrollTop(0);
+            }
         },
         _hideUl: function () {
             this.addClass('idsite-combobox-ul-hide').removeClass('idsite-combobox-ul-show');
